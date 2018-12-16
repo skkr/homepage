@@ -5,8 +5,6 @@ import tours from "./img/tours.jpg";
 
 const SVG = () => (
     <svg
-        width="432"
-        height="319"
         viewBox="0 0 432 319"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

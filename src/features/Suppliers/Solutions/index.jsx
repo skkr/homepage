@@ -4,9 +4,11 @@ import { Container, Row, Col } from "@windingtree/wt-ui-react";
 import Hospitality from "./Hospitality";
 import Airlines from "./Airlines";
 import Tours from "./Tours";
+import Quotes from "./Quotes";
 
 const Solutions = () => (
-    <section className="solutions app-section">
+    // solutions-section
+    <section className="app-section">
         <Container>
             <Row>
                 <Col>
@@ -17,6 +19,10 @@ const Solutions = () => (
                     <Hospitality />
                     <Airlines />
                     <Tours />
+
+                    <hr className="my-md-4"/>
+
+                    <Quotes />
                 </Col>
             </Row>
         </Container>

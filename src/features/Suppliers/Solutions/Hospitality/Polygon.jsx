@@ -5,8 +5,6 @@ import hospitality from "./img/hospitality.jpg";
 
 const SVG = () => (
     <svg
-        width="422"
-        height="318"
         viewBox="0 0 422 318"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

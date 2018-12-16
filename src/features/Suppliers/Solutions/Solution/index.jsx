@@ -7,7 +7,12 @@ type PropsType = {
 };
 const Solution = (props: PropsType) => {
     const { children } = props;
-    return <div className="solutions__sections">{children}</div>;
+    return (
+        // solution-item
+        <div className="mb-3 mb-md-2">
+            {children}
+        </div>
+    );
 };
 
 Solution.Item = Item;

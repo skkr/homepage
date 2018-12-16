@@ -5,8 +5,6 @@ import airlines from "./img/airlines.jpg";
 
 const SVG = () => (
     <svg
-        width="434"
-        height="325"
         viewBox="0 0 434 325"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
